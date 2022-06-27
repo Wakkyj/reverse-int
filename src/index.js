@@ -4,5 +4,5 @@ module.exports = function reverse (n) {
     for (var i=0; i<b.length; i++) {
         a += b[b.length-i-1];
     }
-    return a/1;
+    return Math.abs(a/1);
 }
